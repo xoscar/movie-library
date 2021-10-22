@@ -1,12 +1,10 @@
-import getConfig from 'next/config';
 import { HttpMethods } from '../../enums/http';
 import { IKeyValue } from '../../interfaces/ICommon';
 import Movie, { RawMovieType } from '../../models/Movie';
 import request from '../../utils/request';
 
-const {
-  publicRuntimeConfig: { MOVIES_API_BASE_URL, MOVIES_API_KEY },
-} = getConfig();
+const MOVIES_API_BASE_URL = 'https://api.themoviedb.org/3';
+const MOVIES_API_KEY = '57cac795b3a3d02154121ff88043c59d';
 
 enum apiPaths {
   discovery = '/discover/movie',
