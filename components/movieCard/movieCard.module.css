@@ -1,0 +1,17 @@
+.container {
+  position: relative;
+  width: 300px;
+  display: block;
+  cursor: pointer;
+}
+
+.container > div {
+  position: unset !important;
+}
+
+.container img {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}

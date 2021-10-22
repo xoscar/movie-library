@@ -1,0 +1,27 @@
+.container {
+  height: 500px;
+  width: 100%;
+  background-image: url('/banner.jpeg');
+  backdrop-filter: sepia(90%);
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  backdrop-filter: brightness(0.5);
+  height: 500px;
+  width: 100%;
+}
+
+.headingText {
+  color: white;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+}

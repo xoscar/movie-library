@@ -1,0 +1,15 @@
+.container {
+  width: 400px;
+}
+
+.input {
+  outline: 0;
+  width: 100%;
+  border: 0;
+  padding: 14px;
+  outline: 0;
+  width: 100%;
+  background: white;
+  border-radius: 4px;
+  appearance: none;
+}
